@@ -5,7 +5,7 @@ import java.util.List;
 
 public class AccountCollection {
 
-    private List<Account> accounts = new ArrayList<Account>();
+    private List<Account> accounts = new ArrayList<>();
 
 
     public void add (Account account) {
@@ -20,7 +20,7 @@ public class AccountCollection {
         return this.accounts.get(id);
     }
 
-    public List all () {
+    public List<Account> all () {
         return this.accounts;
     }
 

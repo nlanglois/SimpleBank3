@@ -7,17 +7,17 @@ public class Account {
     private double balance = 0;
     private String type = "Generic";
     private double interest = 0.00;
-    private int clientId;
+    private Client client;
 
 
     public Account(Client client) {
         counter++;
         this.accountNumber = counter;
-        this.clientId = client.getClientId();
+        this.client = client;
     }
 
     public Account(Client client, double balance) {
-        this.clientId = client.getClientId();
+        this.client = client;
         this.balance = balance;
 
         counter++;
@@ -41,8 +41,8 @@ public class Account {
         return this.interest;
     }
 
-    public int getClientId () {
-        return this.clientId;
+    public Client getClient () {
+        return this.client;
     }
 
 

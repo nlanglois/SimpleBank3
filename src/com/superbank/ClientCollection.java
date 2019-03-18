@@ -16,7 +16,7 @@ public class ClientCollection {
         this.clients.remove(client);
     }
 
-    public List all () {
+    public List<Client> all () {
         return this.clients;
     }
 

@@ -3,6 +3,7 @@ package com.superbank;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Client {
 
@@ -38,14 +39,18 @@ public class Client {
         return getClientId() + ": " + getName() + " (" + getAddress() + ")";
     }
 
-    public List getAccounts (AccountCollection accounts) {
+    public List<Account> getAccounts (AccountCollection accounts) {
         List<Account> clientAccounts = new ArrayList<>();
 
         for (Account account : accounts.all()) {
-            if (account.getClientId() == this.getClientId()) {
+            if (account.getClient().clientId == this.getClientId()) {
                 clientAccounts.add(account);
             }
         }
+
+//        List<Account> clientAccounts = accounts.all().stream()
+//                .filter(account -> account.getClient().getClientId() == client.getClientId())
+//                .collect(Collectors.toList());
 
 //        Iterator<Account> a = accounts.iterator();
 //        while (a.hasNext()) {

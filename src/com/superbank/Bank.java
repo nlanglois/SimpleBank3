@@ -1,6 +1,7 @@
 package com.superbank;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Bank {
 
@@ -39,11 +40,22 @@ public class Bank {
             Client client = clients.getOneById(c);
             System.out.println(client.getInfo());
 
-            List<Account> clientAccounts = client.getAccounts(accounts);
-            for (int a = 0; a < clientAccounts.size(); a++) {
-                Account account = clientAccounts.get(a);
-                account.getInfo();
+//            List<Account> clientAccounts = accounts.all().stream()
+//                    .filter(account -> account.getClient().getClientId() == client.getClientId())
+//                    .collect(Collectors.toList());
+
+
+            for (Account account : client.getAccounts(accounts)) {
+                System.out.println(account.getInfo());
             }
+
+
+
+//            List<Account> clientAccounts = client.getAccounts(accounts);
+//            for (int a = 0; a < clientAccounts.size(); a++) {
+//                Account account = clientAccounts.get(a);
+//                account.getInfo();
+//            }
 
         }
     }
