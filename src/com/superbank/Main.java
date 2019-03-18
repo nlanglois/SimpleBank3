@@ -62,11 +62,21 @@ public class Main {
 
         Client sheppard = new Client("Jonathon Sheppard", "7 Cactus Ave. New York, NY 12550");
         bank.addClient(sheppard);
-        bank.addAccount(new Checking(sheppard, 56.00));
-        bank.addAccount(new Saving(sheppard, 99.00));
 
+        Account sheppardCheckingAcct = new Checking(sheppard, 56.00);
+        bank.addAccount(sheppardCheckingAcct);
+
+        Account sheppardSavingAcct = new Saving(sheppard, 99.00);
+        bank.addAccount(sheppardSavingAcct);
 
         bank.printAllCustomers();
 
+        bank.removeClient(shelton);
+//        bank.removeAccount(sheppardCheckingAcct);
+
+        bank.credit(sheppardSavingAcct, 5.00);
+        bank.debit(sheppardSavingAcct, 3.00);
+
+        bank.printAllCustomers();
     }
 }

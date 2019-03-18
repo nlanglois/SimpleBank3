@@ -27,11 +27,11 @@ public class Bank {
 
 
     public void credit (Account account, double amount) {
-        this.accounts.getOneById(account.getAccountNumber()).credit(amount);
+        this.accounts.getAccount(account).credit(amount);
     }
 
     public void debit (Account account, double amount) {
-        this.accounts.getOneById(account.getAccountNumber()).debit(amount);
+        this.accounts.getOneById(account.getAccountNumber()-1).debit(amount);
     }
 
 
@@ -57,6 +57,8 @@ public class Bank {
 //                account.getInfo();
 //            }
 
+
+            System.out.println();
         }
     }
 

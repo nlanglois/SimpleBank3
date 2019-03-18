@@ -1,5 +1,7 @@
 package com.superbank;
 
+import java.text.NumberFormat;
+
 public class Account {
 
     private int accountNumber;
@@ -24,9 +26,13 @@ public class Account {
         this.accountNumber = counter;
     }
 
-
     public double getBalance () {
         return this.balance;
+    }
+
+    public String getBalanceFormatted () {
+        NumberFormat formatter = NumberFormat.getCurrencyInstance();
+        return formatter.format(this.balance);
     }
 
     public int getAccountNumber () {
@@ -57,7 +63,7 @@ public class Account {
     }
 
     public String getInfo () {
-        return "\t#" + this.getAccountNumber() + " (" + this.getType() + ") " + "Balance: $" + this.getBalance() + " [" + this.getInterest() + " interest rate]";
+        return "\t#" + this.getAccountNumber() + " (" + this.getType() + ") " + "Balance: " + this.getBalanceFormatted() + " [" + this.getInterest() + " interest rate]";
     }
 
 

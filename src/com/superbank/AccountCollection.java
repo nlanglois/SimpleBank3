@@ -16,6 +16,10 @@ public class AccountCollection {
         this.accounts.remove(account);
     }
 
+    public Account getAccount (Account account) {
+        return this.accounts.get(account.getAccountNumber()-1);
+    }
+
     public Account getOneById (int id) {
         return this.accounts.get(id);
     }

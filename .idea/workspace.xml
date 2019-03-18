@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e17b0ab4-e8af-4dd7-b478-bfa98dc174ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleBank3/com/superbank/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleBank3/com/superbank/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleBank3/com/superbank/Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleBank3/com/superbank/Bank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleBank3/com/superbank/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleBank3/com/superbank/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleBank3/com/superbank/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleBank3/com/superbank/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/superbank/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/superbank/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/superbank/AccountCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/superbank/AccountCollection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/superbank/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/superbank/Bank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/superbank/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/superbank/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/superbank/ClientCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/superbank/ClientCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/superbank/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/superbank/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/superbank/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+            <state relative-caret-position="314">
+              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
             </state>
           </provider>
         </entry>
@@ -31,11 +34,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/superbank/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+            <state relative-caret-position="856">
+              <caret line="60" column="35" lean-forward="true" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
               <folding>
-                <element signature="e#419#420#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
                 <element signature="e#496#497#0" expanded="true" />
                 <element signature="e#536#537#0" expanded="true" />
                 <element signature="e#590#591#0" expanded="true" />
@@ -54,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/superbank/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="41" column="64" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="64" />
+            <state relative-caret-position="215">
+              <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#327#328#0" expanded="true" />
@@ -66,7 +69,8 @@
                 <element signature="e#353#354#0" expanded="true" />
                 <element signature="e#570#571#0" expanded="true" />
                 <element signature="e#653#654#0" expanded="true" />
-                <element signature="e#1029#1081#0" />
+                <element signature="e#1960#1961#0" expanded="true" />
+                <element signature="e#2000#2001#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/superbank/Bank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+            <state relative-caret-position="281">
+              <caret line="33" column="77" lean-forward="true" selection-start-line="33" selection-start-column="77" selection-end-line="33" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#242#243#0" expanded="true" />
@@ -106,6 +110,8 @@
                 <element signature="e#460#461#0" expanded="true" />
                 <element signature="e#529#530#0" expanded="true" />
                 <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
+                <element signature="e#699#700#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,16 +120,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/superbank/AccountCollection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+            <state relative-caret-position="141">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#203#204#0" expanded="true" />
                 <element signature="e#220#221#0" expanded="true" />
                 <element signature="e#308#309#0" expanded="true" />
                 <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
                 <element signature="e#399#400#0" expanded="true" />
                 <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
                 <element signature="e#501#502#0" expanded="true" />
               </folding>
             </state>
@@ -147,12 +155,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/superbank/Checking.java" />
         <option value="$PROJECT_DIR$/src/com/superbank/Saving.java" />
-        <option value="$PROJECT_DIR$/src/com/superbank/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/superbank/ClientCollection.java" />
         <option value="$PROJECT_DIR$/src/com/superbank/Account.java" />
         <option value="$PROJECT_DIR$/src/com/superbank/AccountCollection.java" />
-        <option value="$PROJECT_DIR$/src/com/superbank/ClientCollection.java" />
-        <option value="$PROJECT_DIR$/src/com/superbank/Client.java" />
         <option value="$PROJECT_DIR$/src/com/superbank/Bank.java" />
+        <option value="$PROJECT_DIR$/src/com/superbank/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/superbank/Main.java" />
       </list>
     </option>
   </component>
@@ -196,7 +204,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552946662681" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552949014947" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -240,12 +248,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552869174990</updated>
-      <workItem from="1552869180772" duration="11595000" />
+      <workItem from="1552869180772" duration="13947000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11595000" />
+    <option name="totallyTimeSpent" value="13947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -321,51 +329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/superbank/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/superbank/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-          <folding>
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/superbank/AccountCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/superbank/ClientCollection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -383,29 +346,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/superbank/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="41" column="64" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#1029#1081#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/superbank/Bank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+        <state relative-caret-position="281">
+          <caret line="33" column="77" lean-forward="true" selection-start-line="33" selection-start-column="77" selection-end-line="33" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#242#243#0" expanded="true" />
@@ -416,7 +360,76 @@
             <element signature="e#460#461#0" expanded="true" />
             <element signature="e#529#530#0" expanded="true" />
             <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/superbank/AccountCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/superbank/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#1960#1961#0" expanded="true" />
+            <element signature="e#2000#2001#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/superbank/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="856">
+          <caret line="60" column="35" lean-forward="true" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
+          <folding>
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/superbank/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
         </state>
       </provider>
     </entry>

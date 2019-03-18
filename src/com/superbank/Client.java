@@ -1,9 +1,7 @@
 package com.superbank;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Client {
 
@@ -48,30 +46,17 @@ public class Client {
             }
         }
 
+//        Another way:
 //        List<Account> clientAccounts = accounts.all().stream()
 //                .filter(account -> account.getClient().getClientId() == client.getClientId())
 //                .collect(Collectors.toList());
 
-//        Iterator<Account> a = accounts.iterator();
-//        while (a.hasNext()) {
-////            System.out.println(a.next());
-//            if (a.next().getClientId() == this.getClientId()) {
-//                clientAccounts.add(clients.getOneById(a.next().getClientId()));
-//            }
-//        }
-
-//        accounts.forEach((a) -> {
-//            System.out.println(a);
-//        });
-
-//
-//        for (int a = 0; a < accounts.all().size(); a++) {
-//            Account account = accounts.getOneById(a);
-//            if (account.getClientId() == this.getClientId()) {
-//                clientAccounts.add(account);
-//            }
-//        }
         return clientAccounts;
+    }
+
+
+    public Account getAccount (int id, AccountCollection accounts) {
+        return this.getAccounts(accounts).get(id);
     }
 
 
